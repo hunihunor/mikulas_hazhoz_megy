@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+a {
+  text-decoration: none;
+}
+aside img {
+  width: 100%;
+}
+main {
+  width: 80%;
+  max-width: 1000px;
+  background-color: rgb(255,255,230);
+  background-position: center;
+}
+main div{
+    padding-left: 1rem;
+}
+header{
+    opacity: 80%;
+    height: 550px;
+    background-image: url(mikulas/kepek/fejlec.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header h1{
+    color:red;
+    text-align: center;
+    margin: 0px;
+    padding-top: 1rem;
+}
+h2{
+    color: red;
+}
+article{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
